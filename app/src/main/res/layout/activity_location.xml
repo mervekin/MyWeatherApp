@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".location.LocationActivity">
+
+    <Button
+        android:id="@+id/btkonumbul"
+        android:layout_width="192dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/locationformain"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textlocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/textlocation"
+        android:layout_width="230dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="166dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btkonumbul" />
+</android.support.constraint.ConstraintLayout>

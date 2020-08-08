@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androstock.myweatherapp.Main2Activity">
+    <item
+        android:id="@+id/action_yenile"
+        android:title="Yenile"
+        app:showAsAction="never"
+        android:orderInCategory="0"/>
+    <item android:id="@+id/konum_kullan"
+        android:title="Konumu Kullan"
+        app:showAsAction="never"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="2"
+        android:title="Ayarlar"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>
